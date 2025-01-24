@@ -9,8 +9,7 @@
 |1|2025 01 24|初始化 laravel 的專案<br>original|charley|
 |2|2025 01 24|feat: breeze --dev|charley|
 |3|2025 01 24|feat: php artisan filament:install --panels|charley|
-|4|2025 01 24|feat: make:filament-resource Post|charley|
-|5|2025 01 24|feat: make:model Post -m|charley|
+|4|2025 01 24|feat: php artisan make:filament-resource User --generate|charley|
 |--|----|----|----|
 
 ## cmd
@@ -35,6 +34,9 @@ npm run dev
 php artisan filament:install --panels
 - What is the ID?
 - - admin
+
+# 建立 Filament 對於 User 的 Dashboard 介面
+php artisan make:filament-resource User --generate
 ~~~
 
 ## Git Flow
