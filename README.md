@@ -23,6 +23,12 @@ php artisan breeze:install
 - Which testing framework do you prefer?
 - - PHPUnit
 
+composer require filament/filament
+php artisan migrate
+
+npm install
+npm run dev
+
 ~~~
 
 ## 參考資料
