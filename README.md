@@ -10,6 +10,7 @@
 |2|2025 01 24|feat: breeze --dev|charley|
 |3|2025 01 24|feat: php artisan filament:install --panels|charley|
 |4|2025 01 24|feat: php artisan make:filament-resource User --generate|charley|
+|4|2025 01 24|feat: add Article of filament-resource|charley|
 |--|----|----|----|
 
 ## cmd
@@ -37,13 +38,17 @@ php artisan filament:install --panels
 
 # 建立 Filament 對於 User 的 Dashboard 介面
 php artisan make:filament-resource User --generate
+
+# 建立 Filament 對於 Article 的 Dashboard 介面
+php artisan make:model Article -m
+php artisan make:filament-resource Article --generate
 ~~~
 
 ## Git Flow
-master develop
+master develop  
 hotfix release feature
 
-> 注：Which one to use: merge or rebase?
+> 注：Which one to use: merge or rebase?  
 > 使用 rebase 將 develop 合進 feature，其餘都是使用 merge
 
 ## 參考資料
